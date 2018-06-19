@@ -1,18 +1,18 @@
-image: rycus86/socat:latest
+image: rycus86/docker-socat:latest
 manifests:
   -
-    image: rycus86/socat:amd64
+    image: rycus86/docker-socat:amd64
     platform:
       architecture: amd64
       os: linux
   -
-    image: rycus86/socat:armhf
+    image: rycus86/docker-socat:armhf
     platform:
       architecture: arm
       variant: v7
       os: linux
   -
-    image: rycus86/socat:aarch64
+    image: rycus86/docker-socat:aarch64
     platform:
       architecture: arm64
       variant: v8
